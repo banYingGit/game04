@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.img-box img {
+    display: block;
+    width: 100%;
+}
+
+img {
+    vertical-align: middle
+}
+
+.srceen {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+
+.srceen1 {
+    background: url("../img/bg1.png") center no-repeat;
+}
+
+.srceen2 {
+    background: url("../img/bg2.png") center no-repeat;
+}
+
+.main-box {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 80%;
+    margin-left: -40%;
+    height: 80%;
+}
+
+.logo {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.explain {
+    margin: 8% auto;
+    width: 65%;
+
+}
+
+.explainT {
+    position: relative;
+    margin-top: 10%
+}
+
+.explainT .text {
+    position: absolute;
+    right: 35%;
+    width: 50%;
+    height: 20%;
+    font-size: 3em;
+    color: #007321;
+    text-align: right;
+}
+
+.botton {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.botton img {
+    width: 40%;
+    cursor: pointer;
+}
+
+.bottons {
+    width: 60%;
+}
+
+.bottons img {
+    float: left;
+    width: 40%;
+    margin: 0 5%;
+}
+
+/* 倒计时 */
+.time-box {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 7%;
+}
+
+.time-box .time {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    font-size: 32px;
+    line-height: 80px;
+    text-align: center;
+    color: #78a97d;
+}
+
+.time-box .time span {
+    font-size: 54px;
+    vertical-align: bottom;
+}
+
+/* 暂停按钮 */
+.stop {
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 5%;
+    display: none;
+}
+
+/* 在练一次 */
+.again {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+
+}
+
+.again p {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 15%;
+}
+
+/* 格子列表 */
+.source-list {
+    width: 43%;
+    padding: 1%;
+    margin: 7% auto 0 auto;
+    background: url("../img/sBg.png") no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.source-list.source-list-practice {
+    width: 35%;
+    margin: 10% auto 0 auto;
+}
+
+.source-list:after {
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.source-list li {
+    position: relative;
+    width: 21%;
+    float: left;
+    margin: 2%;
+
+}
+
+.source-list li img {
+    display: block;
+    width: 100%
+}
+
+.source-list.source-list-practice li {
+    width: 44%;
+    margin: 3%;
+}
+
+.card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    -webkit-transition: -webkit-transform .5s;
+    -moz-transition: -moz-transform .5s;
+    -o-transition: -o-transform .5s;
+    transition: transform .5s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    background: url("../img/block.png") no-repeat;
+    background-size: 100%;
+
+}
+
+.card.result:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../img/result.png") no-repeat;
+    background-size: 100%;
+    content: '';
+}
+
+.card.flipped {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.card p {
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    display: block;
+    width: 98%;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+
+.card p img {
+    display: block;
+    width: 100%;
+}
+
+.card p.back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+/* 最后结果 */
+.resultOver {
+    position: absolute;
+    right: 35%;
+    width: 40%;
+    bottom: -3%;
+    text-align: right;
+    font-size:5rem;
+    color: #067577;
+}
+

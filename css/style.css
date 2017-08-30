@@ -33,12 +33,12 @@ img {
 }
 
 .srceen1 {
-    background: url("../img/bg1.png") center no-repeat;
+    background: url("../img/bg1.png") bottom center no-repeat;
     background-size: 100% 100%;
 }
 
 .srceen2 {
-    background: url("../img/bg2.png") center no-repeat;
+    background: url("../img/bg2.png") bottom center no-repeat;
     background-size: 100% 100%;
 }
 

@@ -18,21 +18,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gameView.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gameView.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/javascript/gameView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="832">
-              <caret line="632" column="5" lean-forward="true" selection-start-line="632" selection-start-column="5" selection-end-line="632" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="262">
+              <caret line="125" column="4" lean-forward="false" selection-start-line="125" selection-start-column="4" selection-end-line="130" selection-end-column="6" />
+              <folding>
+                <element signature="n#!!block;n#_over#0" expanded="false" />
+                <element signature="n#!!block;n#_out#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            <state relative-caret-position="1113">
+              <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -41,8 +44,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state relative-caret-position="21">
+              <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -128,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,9 +144,22 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="game04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -265,7 +282,10 @@
       <workItem from="1503897289640" duration="692000" />
       <workItem from="1503899031542" duration="922000" />
       <workItem from="1503901019585" duration="657000" />
-      <workItem from="1504062552897" duration="141000" />
+      <workItem from="1504062552897" duration="172000" />
+      <workItem from="1504063049988" duration="191000" />
+      <workItem from="1504071536850" duration="1796000" />
+      <workItem from="1504073483795" duration="639000" />
     </task>
     <task id="LOCAL-00001" summary="配置文件">
       <created>1503899080224</created>
@@ -274,11 +294,18 @@
       <option name="project" value="LOCAL" />
       <updated>1503899080224</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="背景图修改">
+      <created>1504062704325</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1504062704325</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57398000" />
+    <option name="totallyTimeSpent" value="60055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -309,20 +336,61 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="配置文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="配置文件" />
+    <MESSAGE value="背景图修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="背景图修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/javascript/gameView.js</url>
+          <line>563</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/javascript/gameView.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13230">
+          <caret line="632" column="5" lean-forward="true" selection-start-line="632" selection-start-column="5" selection-end-line="632" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/gameView.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -348,7 +416,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -374,7 +445,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6111">
           <caret line="293" column="26" lean-forward="true" selection-start-line="293" selection-start-column="26" selection-end-line="293" selection-end-column="26" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -400,7 +474,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -426,7 +503,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -452,7 +532,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -478,7 +561,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -496,7 +582,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -514,7 +603,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -542,7 +634,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3000">
           <caret line="122" column="30" lean-forward="true" selection-start-line="122" selection-start-column="30" selection-end-line="122" selection-end-column="30" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -567,7 +662,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -599,7 +697,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -633,29 +734,42 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/gameView.js">
+    <entry file="file://$PROJECT_DIR$/img/bg1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/bg2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="632" column="5" lean-forward="true" selection-start-line="632" selection-start-column="5" selection-end-line="632" selection-end-column="5" />
+        <state relative-caret-position="1113">
+          <caret line="53" column="7" lean-forward="false" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state relative-caret-position="21">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/javascript/gameView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="262">
+          <caret line="125" column="4" lean-forward="false" selection-start-line="125" selection-start-column="4" selection-end-line="130" selection-end-column="6" />
+          <folding>
+            <element signature="n#!!block;n#_over#0" expanded="false" />
+            <element signature="n#!!block;n#_out#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

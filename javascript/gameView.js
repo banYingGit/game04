@@ -71,6 +71,8 @@ function _event() {
 
         _screen3()
 
+        curErrorNumT = curErrorNumT + 1
+
     });
 
     $('#goscreen5').click(function () {
@@ -133,6 +135,8 @@ function _event() {
 }
 
 function _screen3() {
+
+    $('#sourceListPractice li').attr('data-role', 'haveImg')
 
     $('#sourceListPractice li .card').removeClass('flipped')
 
@@ -321,10 +325,20 @@ function _checkImg(e) {
                 if ($('#screen3').length > 0) {
 
                     setTimeout(function () {
-                        $('#screen3').remove()
-                        $('#screen4').show()
 
-                    }, 2000)
+                        if (curErrorNumT < 1) {
+
+                            $('#again').parents('.again').show()
+
+
+                        } else {
+
+                            $('#screen3').remove()
+                            $('#screen4').show()
+
+                        }
+
+                    }, 1500)
 
                 } else {
 
@@ -359,7 +373,6 @@ function _checkImg(e) {
 
         } else {
 
-            curErrorNumT = curErrorNumT + 1
 
             elIndex = -1
 
@@ -376,24 +389,6 @@ function _checkImg(e) {
             }, 1000)
 
             // console.log('你答错了')
-
-            if ($('#screen3').length > 0) {
-
-                if (curErrorNumT < 2) {
-
-                    $('#again').parents('.again').show()
-
-                } else {
-
-                    setTimeout(function () {
-                        $('#screen3').remove()
-                        $('#screen4').show()
-                    }, 1500)
-
-                }
-            } else {
-
-            }
 
 
         }

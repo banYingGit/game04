@@ -34,10 +34,12 @@ img {
 
 .srceen1 {
     background: url("../img/bg1.png") center no-repeat;
+    background-size: 100% 100%;
 }
 
 .srceen2 {
     background: url("../img/bg2.png") center no-repeat;
+    background-size: 100% 100%;
 }
 
 .main-box {
